@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFPakCryptCLI", "src\WFPakCryptCLI.csproj", "{1ACD877F-3CFF-4888-89B1-44034CA94DDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WFPakCrypt", "WFPakCrypt\WFPakCrypt\WFPakCrypt.vcxproj", "{25EB03F1-3FD1-4B59-B013-25D1E19D8038}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtommath", "WFPakCrypt\libtommath\libtommath_VS2008.vcxproj", "{42109FEE-B0B9-4FCD-9E56-2863BF8C55D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtomcrypt", "WFPakCrypt\libtomcrypt\libtomcrypt.vcxproj", "{6DE4EBCE-250E-FC62-DE11-826EF3E35F1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ACD877F-3CFF-4888-89B1-44034CA94DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACD877F-3CFF-4888-89B1-44034CA94DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACD877F-3CFF-4888-89B1-44034CA94DDF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1ACD877F-3CFF-4888-89B1-44034CA94DDF}.Debug|x86.Build.0 = Debug|Any CPU
+		{1ACD877F-3CFF-4888-89B1-44034CA94DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACD877F-3CFF-4888-89B1-44034CA94DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ACD877F-3CFF-4888-89B1-44034CA94DDF}.Release|x86.ActiveCfg = Release|Any CPU
+		{1ACD877F-3CFF-4888-89B1-44034CA94DDF}.Release|x86.Build.0 = Release|Any CPU
+		{25EB03F1-3FD1-4B59-B013-25D1E19D8038}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{25EB03F1-3FD1-4B59-B013-25D1E19D8038}.Debug|Any CPU.Build.0 = Debug|Win32
+		{25EB03F1-3FD1-4B59-B013-25D1E19D8038}.Debug|x86.ActiveCfg = Debug|Win32
+		{25EB03F1-3FD1-4B59-B013-25D1E19D8038}.Debug|x86.Build.0 = Debug|Win32
+		{25EB03F1-3FD1-4B59-B013-25D1E19D8038}.Release|Any CPU.ActiveCfg = Release|Win32
+		{25EB03F1-3FD1-4B59-B013-25D1E19D8038}.Release|Any CPU.Build.0 = Release|Win32
+		{25EB03F1-3FD1-4B59-B013-25D1E19D8038}.Release|x86.ActiveCfg = Release|Win32
+		{25EB03F1-3FD1-4B59-B013-25D1E19D8038}.Release|x86.Build.0 = Release|Win32
+		{42109FEE-B0B9-4FCD-9E56-2863BF8C55D2}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{42109FEE-B0B9-4FCD-9E56-2863BF8C55D2}.Debug|Any CPU.Build.0 = Debug|Win32
+		{42109FEE-B0B9-4FCD-9E56-2863BF8C55D2}.Debug|x86.ActiveCfg = Debug|Win32
+		{42109FEE-B0B9-4FCD-9E56-2863BF8C55D2}.Debug|x86.Build.0 = Debug|Win32
+		{42109FEE-B0B9-4FCD-9E56-2863BF8C55D2}.Release|Any CPU.ActiveCfg = Release|Win32
+		{42109FEE-B0B9-4FCD-9E56-2863BF8C55D2}.Release|Any CPU.Build.0 = Release|Win32
+		{42109FEE-B0B9-4FCD-9E56-2863BF8C55D2}.Release|x86.ActiveCfg = Release|Win32
+		{42109FEE-B0B9-4FCD-9E56-2863BF8C55D2}.Release|x86.Build.0 = Release|Win32
+		{6DE4EBCE-250E-FC62-DE11-826EF3E35F1A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{6DE4EBCE-250E-FC62-DE11-826EF3E35F1A}.Debug|Any CPU.Build.0 = Debug|Win32
+		{6DE4EBCE-250E-FC62-DE11-826EF3E35F1A}.Debug|x86.ActiveCfg = Debug|Win32
+		{6DE4EBCE-250E-FC62-DE11-826EF3E35F1A}.Debug|x86.Build.0 = Debug|Win32
+		{6DE4EBCE-250E-FC62-DE11-826EF3E35F1A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{6DE4EBCE-250E-FC62-DE11-826EF3E35F1A}.Release|Any CPU.Build.0 = Release|Win32
+		{6DE4EBCE-250E-FC62-DE11-826EF3E35F1A}.Release|x86.ActiveCfg = Release|Win32
+		{6DE4EBCE-250E-FC62-DE11-826EF3E35F1A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EA7797E-71B7-47EE-92E1-BE77AAAA2ED1}
+	EndGlobalSection
+EndGlobal

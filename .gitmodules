@@ -1,0 +1,3 @@
+[submodule "WFPakCrypt"]
+	path = WFPakCrypt
+	url = https://github.com/WFCRYHUB/WFPakCrypt.git
